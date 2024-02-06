@@ -15,13 +15,15 @@ const Middle = () => {
         <h3 className="text-2xl lgl:text-4xl font-semibold  mb-2 xl:text-6xl">
           法政大学大学院 情報科学研究科
         </h3>
-        <h2 className="text-2xl lgl:text-4xl font-semibold mt-2">窪田 歩夢</h2>
+        <h2 className="text-2xl lgl:text-4xl font-semibold mt-2 xl:text-6xl  xl:mt-4">
+          窪田 歩夢
+        </h2>
       </motion.div>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
-        className="space-y-4  xl:gap-11"
+        className=" space-y-6 xl:space-y-11  "
       >
         {/* 各項目の詳細を記述 */}
         <p>
