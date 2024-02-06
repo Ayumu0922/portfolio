@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
 
         {/* 縮小版のアイコン表示 */}
-        <div className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
+        <div className="w-6 h-5  flex-col flex justify-between items-center md:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
           <span className="w-full h-[2px] bg-textGreen inline-flex  transform  group-hover:scale-110 group-hover:rotate-45 group-hover:-translate-y-1 transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:scale-110  transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textGreen inline-flex  group-hover:scale-110 transform group-hover:-rotate-45 group-hover:translate-y-1 transition-all ease-in-out duration-300"></span>

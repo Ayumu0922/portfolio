@@ -46,11 +46,16 @@ const Middle = () => {
         </p>
       </motion.div>
       <div className="mt-2 flex   justify-end lg:text-2xl">
-        <a href="履歴書のURL" target="_blank" className="flex md:text-right">
-          <span className=" text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group ">
-            詳しく見る
-            <span className=" absolute w-full h-[1px] bg-textGreen left-0 bottom-1 lg:bottom-0 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
+        <a
+          href="履歴書のURL"
+          target="_blank"
+          className="flex md:text-right group overflow"
+        >
+          <div className="mt-2 flex justify-end lg:text-2xl z-10">
+            <a href="履歴書のURL" target="_blank" className="text-underline">
+              詳しく見る
+            </a>
+          </div>
         </a>
       </div>
       <div className="flex flex-col items-center mt-8">

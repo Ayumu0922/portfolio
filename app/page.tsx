@@ -23,14 +23,14 @@ export default function Home() {
           transition={{ delay: 1.4 }}
           className=" w-full h-[88vh] xl:flex items-center gap-20 justify-between"
         >
-          <div className=" hidden md:inline-flex w-32 h-full fixed left-0 bottom-0">
+          <div className=" hidden md:inline-flex w-32 h-full fixed left-0 bottom-0 z-0">
             <LeftSide />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.9 }}
-            className=" h-[88vh] mx-auto p-4"
+            className=" h-[88vh] mx-auto p-4 z-10"
           >
             <Middle />
           </motion.div>
@@ -38,7 +38,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.4 }}
-            className="hidden md:inline-flex w-32 h-full fixed right-0 bottom-0"
+            className="hidden md:inline-flex w-32 h-full fixed right-0 bottom-0 z-0"
           >
             <RightSide />
           </motion.div>
