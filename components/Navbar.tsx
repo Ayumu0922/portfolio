@@ -24,7 +24,7 @@ const Navbar = () => {
           <Image src={logo} alt="logo" className="w-14" />
         </motion.div>
         <div className="hidden md:inline-flex items-center gap-7">
-          <ul className="flex text-[13px]  gap-7">
+          <ul className="flex text-[13px]  gap-6">
             <Link
               href="#home"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"

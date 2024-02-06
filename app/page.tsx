@@ -6,6 +6,7 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
+import Study from "@/components/Study";
 
 export default function Home() {
   return (
@@ -24,18 +25,19 @@ export default function Home() {
           transition={{ delay: 1.6 }}
           className=" w-full h-[88vh]  items-center gap-20 justify-between"
         >
-          <div className=" hidden md:inline-flex w-32 h-full fixed left-0 bottom-0 z-0">
+          <div className=" hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0">
             <LeftSide />
           </div>
-          <div className=" h-[88vh] mx-auto p-4 z-10">
+          <div className=" h-[88vh] mx-auto p-4  w-full">
             <Banner />
             <About />
+            <Study />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.4 }}
-            className="hidden md:inline-flex w-32 h-full fixed right-0 bottom-0 z-0"
+            className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0 "
           >
             <RightSide />
           </motion.div>
