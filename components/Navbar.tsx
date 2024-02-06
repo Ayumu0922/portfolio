@@ -7,11 +7,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  // より目立つアニメーションのための設定
   const staggeredAnimation = (delay: number) => ({
     initial: { y: -30, opacity: 0 },
     animate: { y: 0, opacity: 1 },
-    transition: { duration: 0.6, delay },
+    transition: { duration: 1.0, delay },
   });
 
   return (
@@ -20,7 +19,7 @@ const Navbar = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1.0, delay: 0.2 }}
         >
           <Image src={logo} alt="logo" className="w-14" />
         </motion.div>
@@ -30,13 +29,13 @@ const Navbar = () => {
               href="#home"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li {...staggeredAnimation(0)}>ホーム</motion.li>
+              <motion.li {...staggeredAnimation(0.3)}>ホーム</motion.li>
             </Link>
             <Link
               href="#about"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li {...staggeredAnimation(0.1)}>
+              <motion.li {...staggeredAnimation(0.4)}>
                 <span className="  text-textGreen">01.</span> 自己紹介
               </motion.li>
             </Link>
@@ -44,7 +43,7 @@ const Navbar = () => {
               href="#study"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li {...staggeredAnimation(0.2)}>
+              <motion.li {...staggeredAnimation(0.5)}>
                 <span className="  text-textGreen">02.</span> 研究内容
               </motion.li>
             </Link>
@@ -52,7 +51,7 @@ const Navbar = () => {
               href="#skillset"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li {...staggeredAnimation(0.3)}>
+              <motion.li {...staggeredAnimation(0.6)}>
                 <span className="  text-textGreen">03.</span> スキルセット
               </motion.li>
             </Link>
@@ -60,16 +59,14 @@ const Navbar = () => {
               href="#contact"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
-              <motion.li {...staggeredAnimation(0.4)}>
+              <motion.li {...staggeredAnimation(0.7)}>
                 <span className="  text-textGreen">04.</span>連絡先
               </motion.li>
             </Link>
           </ul>
           <a href="履歴書のURL" target="_blank">
             <motion.button
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
+              {...staggeredAnimation(0.8)}
               className="ml-[20px]  px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen  hover:bg-hoverColor duration-300"
             >
               履歴書
@@ -78,10 +75,10 @@ const Navbar = () => {
         </div>
 
         {/* 縮小版のアイコン表示 */}
-        <div className="w-6 h-5  flex-col flex justify-between items-center md:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
-          <span className="w-full h-[2px] bg-textGreen inline-flex  transform  group-hover:scale-110 group-hover:rotate-45 group-hover:-translate-y-1 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:scale-110  transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-textGreen inline-flex  group-hover:scale-110 transform group-hover:-rotate-45 group-hover:translate-y-1 transition-all ease-in-out duration-300"></span>
+        <div className="w-6 h-5 flex-col flex justify-between items-center md:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
+          <span className="w-full h-[2px] bg-textGreen inline-flex transform  group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
+          <span className="w-full h-[2px] bg-textGreen inline-flex  translate-x-3 transform group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
+          <span className="w-full h-[2px] bg-textGreen inline-flex  translate-x-1 transform group-hover:translate-x-4 transition-all ease-in-out duration-300"></span>
         </div>
       </div>
     </div>
