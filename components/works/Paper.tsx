@@ -11,9 +11,9 @@ const Paper = () => {
       transition={{ delay: 0.1 }}
       className=" w-full"
     >
-      <h3 className="flex gap-1  font-semibold text-xl ">
+      <h3 className="text-textGreen flex gap-1  font-semibold text-xl ">
         「Paper」
-        <span className=" text-textGreen tracking-wide mb-3 whitespace-normal">
+        <span className=" text-white  tracking-wide mb-3 whitespace-normal">
           A Computer-Aided-Diagnosis System
           <br /> for Hallux Valgus
         </span>
@@ -24,7 +24,7 @@ const Paper = () => {
         </p>
       </div>
       <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex justify-center items-center gap-6">
-        <Image src={studyPaper} alt="Louvre" width={300} />
+        <Image src={studyPaper} alt="Louvre" width={200} />
         <button className=" w-24 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
           Paper
         </button>

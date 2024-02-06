@@ -10,9 +10,9 @@ const Study_D = () => {
       transition={{ delay: 0.1 }}
       className=" w-full"
     >
-      <h3 className="flex gap-1  font-semibold text-xl ">
+      <h3 className="text-textGreen flex gap-1  font-semibold text-xl ">
         「テーマ」
-        <span className=" text-textGreen tracking-wide mb-3">
+        <span className=" text-white tracking-wide mb-3">
           外反母趾コンピュータ診断支援システム
         </span>
       </h3>

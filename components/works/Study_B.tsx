@@ -9,9 +9,9 @@ const Study_B = () => {
       transition={{ delay: 0.1 }}
       className=" w-full"
     >
-      <h3 className="flex gap-1  font-semibold text-xl ">
+      <h3 className="text-textGreen flex gap-1  font-semibold text-xl ">
         「テーマ」
-        <span className=" text-textGreen tracking-wide mb-3">
+        <span className=" text-white tracking-wide mb-3">
           BaTiO3-BaTi2O5 コンポジット薄膜の作成
         </span>
       </h3>

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  min-width: 600px;
+}
+
 /* hover 時に直線を引く */
 .text-underline {
   position: relative;
@@ -25,4 +30,18 @@
 /* ホバー時の線のスタイル */
 .text-underline:hover::after {
   width: 100%; /* ホバー時は線の幅を要素の幅いっぱいに広げる */
+}
+
+.active {
+  color: #64ffda;
+}
+
+.hidden-scrollbar {
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
 }

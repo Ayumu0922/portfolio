@@ -74,7 +74,7 @@ const Study = () => {
                 : "border-l-textDark text-textDark"
             }`}
           >
-            研究概要書
+            研究概要
           </li>
           <li
             onClick={handlePaper}

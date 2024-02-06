@@ -14,6 +14,23 @@ const config: Config = {
       containersx: "768px",
     },
     extend: {
+      keyframes: {
+        glow: {
+          "0%, 100%": { textShadow: "0 0 5px #64ffda" },
+          "50%": { textShadow: "0 0 10px #64ffda" },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        // 他のカスタムアニメーションのキーフレームを追加できます
+      },
+      animation: {
+        "glow-slow": "glow 3s ease-in-out infinite",
+        "fade-in": "fadeIn 1s ease-out",
+        // 他のカスタムアニメーション名と設定を追加できます
+      },
+
       // md: "667px"
 
       // 対応デバイス: 中型スマートフォン。
@@ -45,6 +62,7 @@ const config: Config = {
         lgl: "1024px",
         xl: "1280px",
       },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -54,7 +72,7 @@ const config: Config = {
         navbarShadow: "0 10px 30px -10px rgba(2,12,27,0.7)",
       },
       colors: {
-        bodyColor: "#182e51",
+        bodyColor: "#0a192f",
         textGreen: "#64ffda",
         textLight: "#dfe3f0",
         textDark: "#a7b0cb",
