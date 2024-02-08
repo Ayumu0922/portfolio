@@ -38,7 +38,7 @@ const About = () => {
               <span className=" text-textGreen">
                 <AiFillCaretRight />
               </span>
-              長所：挑戦を恐れず取り組む強い主体性
+              長所：挑戦を恐れず取り組む主体性
             </li>
             <li className="flex items-center gap-2">
               <span className=" text-textGreen">
