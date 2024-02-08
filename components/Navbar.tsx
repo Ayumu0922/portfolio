@@ -36,9 +36,9 @@ const Navbar = () => {
     transition: { duration: 1.0, delay },
   });
   const staggeredAnimationx = (delay: number) => ({
-    initial: { x: -30, opacity: 0 },
+    initial: { x: 30, opacity: 0 },
     animate: { x: 0, opacity: 1 },
-    transition: { duration: 1.0, delay },
+    transition: { duration: 0.1, delay },
   });
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[8vh] sticky top-0 z-50 bg-bodyColor px-4">
@@ -79,16 +79,7 @@ const Navbar = () => {
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li {...staggeredAnimationy(0.6)}>
-                <span className="  text-textGreen">03.</span> スキルセット
-              </motion.li>
-            </Link>
-            <Link
-              onClick={handleScroll}
-              href="#contact"
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-            >
-              <motion.li {...staggeredAnimationy(0.7)}>
-                <span className="  text-textGreen">04.</span>連絡先
+                <span className="  text-textGreen">03.</span> 作品紹介
               </motion.li>
             </Link>
           </ul>
@@ -159,24 +150,15 @@ const Navbar = () => {
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li {...staggeredAnimationx(0.6)}>
-                      <span className="  text-textGreen">03.</span> スキルセット
-                    </motion.li>
-                  </Link>
-                  <Link
-                    onClick={handleScroll}
-                    href="#contact"
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
-                  >
-                    <motion.li {...staggeredAnimationx(0.7)}>
-                      <span className="  text-textGreen">04.</span>連絡先
+                      <span className="  text-textGreen">03.</span> 作品紹介
                     </motion.li>
                   </Link>
                 </ul>
 
                 <a href="履歴書のURL" target="_blank">
                   <motion.button
-                    {...staggeredAnimationx(0.8)}
-                    className="ml-[20px]  px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen  hover:bg-hoverColor duration-300"
+                    {...staggeredAnimationx(0.7)}
+                    className="  px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen  hover:bg-hoverColor duration-300"
                   >
                     履歴書
                   </motion.button>
@@ -185,7 +167,7 @@ const Navbar = () => {
 
               <div className="flex mt-8 gap-4">
                 <motion.a
-                  {...staggeredAnimationy(0.8)}
+                  {...staggeredAnimationx(0.8)}
                   href="https://github.com/Ayumu0922"
                   target="_blank"
                 >
@@ -193,19 +175,10 @@ const Navbar = () => {
                     <AiOutlineGithub />
                   </span>
                 </motion.a>
-                <motion.a
-                  {...staggeredAnimationy(0.9)}
-                  href="https://github.com/Ayumu0922"
-                  target="_blank"
-                >
-                  <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen  cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                    <FaXTwitter />
-                  </span>
-                </motion.a>
 
                 <motion.a
-                  {...staggeredAnimationy(1.0)}
-                  href="https://github.com/Ayumu0922"
+                  {...staggeredAnimationx(0.8)}
+                  href="https://www.instagram.com/ayumuu_0922/"
                   target="_blank"
                 >
                   <span className=" w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen  cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -215,7 +188,7 @@ const Navbar = () => {
               </div>
 
               <motion.a
-                {...staggeredAnimationy(1.1)}
+                {...staggeredAnimationx(0.9)}
                 className=" mt-6"
                 href="mailto:hosei.kubota.ayumu@gmail.com"
               >
