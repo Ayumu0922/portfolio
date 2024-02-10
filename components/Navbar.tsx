@@ -79,7 +79,11 @@ const Navbar = () => {
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li {...staggeredAnimationy(0.6)}>
+<<<<<<< HEAD
                 <span className="  text-textGreen">03.</span> 作品紹介
+=======
+                <span className="  text-textGreen">03.</span>作品紹介
+>>>>>>> 0d0c285 (edit min width)
               </motion.li>
             </Link>
           </ul>
@@ -105,7 +109,7 @@ const Navbar = () => {
         {showMenu && (
           <div
             ref={(node) => (ref.current = node)}
-            className=" absolute mdl:hidden top-0 right-0 w-full  h-screen bg-black bg-opacity-50 flex flex-col items-end"
+            className=" absolute mdl:hidden top-0 right-0  w-full  h-screen bg-black bg-opacity-50 flex flex-col items-end"
           >
             <motion.div
               initial={{ x: 20, opacity: 0 }}
@@ -117,7 +121,7 @@ const Navbar = () => {
                 onClick={() => setShowMenu(false)}
                 className=" text-3xl text-textGreen  cursor-pointer hover:text-red-500 absolute top-4 right-4"
               />
-              <div className="flex flex-col items-center gap-7">
+              <div className="flex flex-col items-center gap-7 justify-center items-centert">
                 <ul className="flex flex-col items-center gap-7">
                   <Link
                     onClick={handleScroll}
@@ -150,7 +154,11 @@ const Navbar = () => {
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li {...staggeredAnimationx(0.6)}>
+<<<<<<< HEAD
                       <span className="  text-textGreen">03.</span> 作品紹介
+=======
+                      <span className="  text-textGreen">03.</span>作品紹介
+>>>>>>> 0d0c285 (edit min width)
                     </motion.li>
                   </Link>
                 </ul>

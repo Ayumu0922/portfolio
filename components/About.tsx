@@ -55,7 +55,7 @@ const About = () => {
           </ul>
         </div>
         <div className=" w-full lgl:w-1/3 h-80 relative  group">
-          <div className=" absolute w-full h-80 -left-6 -top-6 rounded-lg">
+          <div className=" absolute w-75 h-80 -left-6 -top-6 rounded-lg">
             <div className=" w-full h-full relative z-30 flex pl-6 lgl:pl-0">
               <Image
                 className=" rounded-lg h-full object-cover"
@@ -65,7 +65,7 @@ const About = () => {
               <div className=" hidden lgl:inline-block absolute w-full h-80 bg-textGreen/5 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border-2 border-b-textGreen border-r-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 "></div>
+          <div className="hidden lgl:inline-flex w-[230px] h-80 border-2 border-b-textGreen border-r-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300 "></div>
         </div>
       </div>
     </section>
