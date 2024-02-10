@@ -23,7 +23,7 @@ const Paper = () => {
           Hosei University, Graduate School of Information Science, Ayumu Kubota
         </p>
       </div>
-      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex justify-center items-center gap-6">
+      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex flex-col justify-center items-center gap-6">
         <Image src={studyPaper} alt="Louvre" width={200} />
         <button className=" w-24 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
           Paper

@@ -23,7 +23,7 @@ const StudyOverview = () => {
           法政大学　情報科学研究科　情報科学科専攻　花泉研究室
         </p>
       </div>
-      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex  justify-center items-center gap-6">
+      <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex flex-col md:flex justify-center items-center gap-6 ">
         <Image src={studyOverview} alt="Louvre" width={300} />
         <button className=" w-32 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
           研究概要
