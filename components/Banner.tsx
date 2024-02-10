@@ -21,7 +21,7 @@ const Banner = () => {
         className=" text-3xl lgl:text-4xl font-semibold flex flex-col items-center"
       >
         窪田 歩夢
-        <span className="text-textDark mt-4 lgl:mt-8 text-4xl animate-glow-slow font-bold">
+        <span className="text-textDark mt-4 lgl:mt-8 text-4xl animate-glow-slow font-bold  xs:text-2xl">
           This is My Portfolio Website.
         </span>
       </motion.h1>
