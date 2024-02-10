@@ -29,7 +29,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 1.9 }}
-        className=" text-xl md:max-w-[650px] text-textDark font-medium"
+        className=" xs:text-sm md:text-xl md:max-w-[650px] text-textDark font-medium"
       >
         ・Next.js 13 ・Tailwind CSS ・Type Script
       </motion.h2>

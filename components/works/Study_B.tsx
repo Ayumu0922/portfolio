@@ -9,7 +9,7 @@ const Study_B = () => {
       transition={{ delay: 0.1 }}
       className=" w-full"
     >
-      <h3 className="text-textGreen flex gap-1  font-semibold md:text-xl xs:text-base ">
+      <h3 className="text-textGreen flex gap-1  font-semibold md:text-xl xs:text-xs ">
         「テーマ」
         <span className=" text-white tracking-wide mb-3">
           BaTiO3-BaTi2O5 コンポジット薄膜の作成

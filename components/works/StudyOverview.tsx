@@ -12,7 +12,7 @@ const StudyOverview = () => {
       transition={{ delay: 0.1 }}
       className=" w-full"
     >
-      <h3 className=" text-textGreen flex gap-1  font-semibold md:text-xl xs:text-base ">
+      <h3 className=" text-textGreen flex gap-1  font-semibold md:text-xl xs:text-xs ">
         「研究概要」
         <span className="  text-white tracking-wide mb-3">
           外反母趾コンピュータ診断支援システム
