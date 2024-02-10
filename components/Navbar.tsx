@@ -79,11 +79,7 @@ const Navbar = () => {
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li {...staggeredAnimationy(0.6)}>
-<<<<<<< HEAD
-                <span className="  text-textGreen">03.</span> 作品紹介
-=======
                 <span className="  text-textGreen">03.</span>作品紹介
->>>>>>> 0d0c285 (edit min width)
               </motion.li>
             </Link>
           </ul>
@@ -154,11 +150,7 @@ const Navbar = () => {
                     className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li {...staggeredAnimationx(0.6)}>
-<<<<<<< HEAD
-                      <span className="  text-textGreen">03.</span> 作品紹介
-=======
                       <span className="  text-textGreen">03.</span>作品紹介
->>>>>>> 0d0c285 (edit min width)
                     </motion.li>
                   </Link>
                 </ul>
