@@ -83,7 +83,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="履歴書のURL" target="_blank">
+          <a href="/img/projects/myresume.pdf" target="_blank">
             <motion.button
               {...staggeredAnimationy(0.8)}
               className="ml-[20px]  px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen  hover:bg-hoverColor duration-300"
@@ -155,7 +155,7 @@ const Navbar = () => {
                   </Link>
                 </ul>
 
-                <a href="履歴書のURL" target="_blank">
+                <a href="/img/projects/myresume.pdf" target="_blank">
                   <motion.button
                     {...staggeredAnimationx(0.7)}
                     className="  px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen  hover:bg-hoverColor duration-300"

@@ -34,7 +34,9 @@ const Banner = () => {
         ・Next.js 13 ・Tailwind CSS ・Type Script
       </motion.h2>
       <motion.button className=" w-32 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
-        履歴書
+        <a href="/img/projects/myresume.pdf" target="_blank">
+          履歴書
+        </a>
       </motion.button>
     </section>
   );

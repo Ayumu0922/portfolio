@@ -26,7 +26,9 @@ const Paper = () => {
       <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex flex-col justify-center items-center gap-6">
         <Image src={studyPaper} alt="Louvre" width={200} />
         <button className=" w-24 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
-          Paper
+          <a href="/img/projects/IEVC2024.pdf" target="_blank">
+            Paper
+          </a>
         </button>
       </div>
     </motion.div>
