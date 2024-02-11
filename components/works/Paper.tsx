@@ -14,8 +14,7 @@ const Paper = () => {
       <h3 className="text-textGreen flex gap-1  font-semibold md:text-xl xs:text-sm">
         「Paper」
         <span className=" text-white  tracking-wide mb-3 whitespace-normal">
-          A Computer-Aided-Diagnosis System
-          <br /> for Hallux Valgus
+          A Computer-Aided-Diagnosis System for Hallux Valgus
         </span>
       </h3>
       <div className="flex justify-end">
