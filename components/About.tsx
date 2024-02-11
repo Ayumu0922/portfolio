@@ -19,7 +19,10 @@ const About = () => {
             全国大会 へ出場した経験です。 さらに大学院では、大学時代に学んでいた
             生命科学から情報科学 へと分野を変更し、新たな挑戦を続けています。
             <div className="flex justify-end">
-              <a href="リンク張る" className="text-underline">
+              <a
+                href="/img/projects/ES_portfolio.pdf"
+                className="text-underline"
+              >
                 <span className=" text-textGreen inline-flex cursor-pointer h-5 overflow-hidden group ">
                   詳しく見る
                 </span>

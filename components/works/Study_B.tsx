@@ -9,7 +9,7 @@ const Study_B = () => {
       transition={{ delay: 0.1 }}
       className=" w-full"
     >
-      <h3 className="text-textGreen flex gap-1  font-semibold md:text-xl xs:text-xs ">
+      <h3 className="text-textGreen flex gap-1  font-semibold md:text-xl xs:text-sm">
         「テーマ」
         <span className=" text-white tracking-wide mb-3">
           BaTiO3-BaTi2O5 コンポジット薄膜の作成
@@ -21,7 +21,7 @@ const Study_B = () => {
         </p>
       </div>
       <ul>
-        <li className=" text-base flex gap-2 text-textDark">
+        <li className="xs:text-sm md:text-base flex gap-2 text-textDark">
           <span className=" text-textGreen mt-1">
             <IoArrowRedo />
           </span>
