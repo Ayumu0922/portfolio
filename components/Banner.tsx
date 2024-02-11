@@ -18,10 +18,10 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 1.8 }}
-        className=" text-3xl lgl:text-4xl font-semibold flex flex-col items-center"
+        className=" text-3xl md:text-5xl font-semibold flex flex-col items-center"
       >
         窪田 歩夢
-        <span className="text-textDark mt-4 lgl:mt-8 text-4xl animate-glow-slow font-bold  xs:text-2xl">
+        <span className="text-textDark mt-4 lgl:mt-8 md:text-4xl animate-glow-slow font-bold  xs:text-2xl">
           This is My Portfolio Website.
         </span>
       </motion.h1>
