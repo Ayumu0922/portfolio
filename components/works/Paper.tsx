@@ -19,7 +19,7 @@ const Paper = () => {
         </span>
       </h3>
       <div className="flex justify-end">
-        <p className=" xs:text-xs md:text-lgmb-3 font-medium text-textDark mb-3">
+        <p className="xs:text-xs md:text-lg mb-3 font-medium text-textDark mb-3">
           Hosei University, Graduate School of Information Science, Ayumu Kubota
         </p>
       </div>
