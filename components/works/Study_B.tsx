@@ -16,7 +16,7 @@ const Study_B = () => {
         </span>
       </h3>
       <div className="flex justify-end">
-        <p className=" text-sm mb-3 font-medium text-textDark">
+        <p className="xs:text-xs md:text-lgmb-3 font-medium text-textDark mb-3">
           法政大学　生命科学部　環境応用科学科　明石研究室
         </p>
       </div>

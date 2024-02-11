@@ -19,7 +19,7 @@ const StudyOverview = () => {
         </span>
       </h3>
       <div className="flex justify-end">
-        <p className=" text-sm mb-3 font-medium text-textDark">
+        <p className="xs:text-xs md:text-lg mb-3 font-medium text-textDark">
           法政大学　情報科学研究科　情報科学科専攻　花泉研究室
         </p>
       </div>
