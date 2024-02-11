@@ -22,6 +22,7 @@ const About = () => {
               <a
                 href="/img/projects/ES_portfolio.pdf"
                 className="text-underline"
+                target = "_blank"
               >
                 <span className=" text-textGreen inline-flex cursor-pointer h-5 overflow-hidden group ">
                   詳しく見る
