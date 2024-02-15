@@ -40,7 +40,7 @@ const Study = () => {
   return (
     <section
       id="study"
-      className=" max-w-containersx mx-auto py-10 lgl:py-24 px-4"
+      className=" max-w-contentContainer mx-auto py-10 lgl:py-24 px-4"
     >
       <SectionTitle title="研究内容" titleNo="02" />
       <div className=" w-full mt-10 flex flex-col md:flex-row gap-16">

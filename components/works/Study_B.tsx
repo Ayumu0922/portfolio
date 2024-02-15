@@ -21,7 +21,7 @@ const Study_B = () => {
         </p>
       </div>
       <ul>
-        <li className="xs:text-sm md:text-base flex gap-2 text-textDark">
+        <li className="xs:text-sm md:text-xl flex gap-2 text-textDark">
           <span className=" text-textGreen mt-1">
             <IoArrowRedo />
           </span>

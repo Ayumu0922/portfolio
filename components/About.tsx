@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className=" max-w-containerSmall mx-auto py-10 lgl:py-24 flex flex-col gap-8"
+      className=" max-w-contentContainer mx-auto py-10 lgl:py-24 flex flex-col gap-8"
     >
       <SectionTitle title="自己紹介" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-20 xl:gap-40">
@@ -22,7 +22,7 @@ const About = () => {
               <a
                 href="/img/projects/ES_portfolio.pdf"
                 className="text-underline"
-                target = "_blank"
+                target="_blank"
               >
                 <span className=" text-textGreen inline-flex cursor-pointer h-5 overflow-hidden group ">
                   詳しく見る

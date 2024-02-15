@@ -24,7 +24,7 @@ const StudyOverview = () => {
         </p>
       </div>
       <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex flex-col md:flex justify-center items-center gap-6 ">
-        <Image src={studyOverview} alt="Louvre" width={300} />
+        <Image src={studyOverview} alt="Louvre" width={500} />
         <button className=" w-32 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
           <a href="/img/projects/study_overview.pdf" target="_blank">
             研究概要

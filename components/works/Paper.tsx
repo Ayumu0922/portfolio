@@ -18,12 +18,12 @@ const Paper = () => {
         </span>
       </h3>
       <div className="flex justify-end">
-        <p className="xs:text-xs md:text-lg mb-3 font-medium text-textDark mb-3">
+        <p className="xs:text-xs md:text-lg font-medium text-textDark mb-3">
           Hosei University, Graduate School of Information Science, Ayumu Kubota
         </p>
       </div>
       <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat flex flex-col justify-center items-center gap-6">
-        <Image src={studyPaper} alt="Louvre" width={200} />
+        <Image src={studyPaper} alt="Louvre" width={300} />
         <button className=" w-24 h-12  text-lg border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
           <a href="/img/projects/IEVC2024.pdf" target="_blank">
             Paper

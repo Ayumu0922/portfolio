@@ -15,43 +15,41 @@ const Project = () => {
         {/* project 1 */}
         <div className=" w-full flex flex-col items-center justify-center gap-28 mt-10">
           <div className="flex flex-col xl:flex-row-reverse gap-6">
+            {/* 動画を含むリンク */}
             <a
               className=" w-full xl:w-1/2 h-auto relative group"
-              href="サイトのリンク張る"
+              href="プロジェクトのURL"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <div>
-                <Image
-                  className=" w-full h-full object-contain"
-                  src={studyOverview}
-                  width={800}
-                  alt="amazonImg"
-                />
-              </div>
+              <video
+                className=" w-full h-full object-contain"
+                src="./video/project1.mp4"
+                width={800}
+                controls
+              />
             </a>
-            <div className=" w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right  z-10">
+            <div className=" w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-left  z-10">
               <p className=" text-textGreen text-sm tracking-wide">
-                feature project
+                プロジェクト1
               </p>
-              <h3 className=" text-2xl font-bold">My Project</h3>
+              <h3 className=" text-2xl font-bold">認証アプリケーション</h3>
               <p className=" bg-[#112240] text-sm md:text-base p-2 xl:-mr-12 md:p-6 rounded-xl ">
-                このプロジェクトの説明
-                <span className=" text-textGreen">
-                  技fsddddddddddddddddd sdfsddddddddddddddddd sdfff
-                  sdffffffffffffffffff
-                  sdffffffffffffffaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                  sdfffffffffffffffffffffffffffffffffffffffffffffdsa
-                  sdffffffffffffffffffffffffffffffffffffffffffffff術
-                </span>
+                認証機能を <span className=" text-textGreen">Supabase</span>
+                をバックエンドに使用して実装しました。
+                Googleもしくは、Email,Passwordを使用してログインすることができます。
+                レイアウトには{" "}
+                <span className=" text-textGreen">Tailwind CSS</span>
+                を使用しており、フレームワークは
+                <span className=" text-textGreen">Next.js14</span>
+                を使用しています。
+                <span className=" text-textGreen"></span>
               </p>
-              <ul className=" text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>next js </li>
-                <li>next js </li>
-                <li>next js </li>
-                <li>next js </li>
-                <li>next js </li>
-                <li>next js </li>
-                <li>next js </li>
+              <ul className=" text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between  text-textGreen">
+                <li>Next.js 14</li>
+                <li>Supabase</li>
+                <li>TailWind CSS</li>
+                <li>PostgresSQL</li>
               </ul>
               <div className=" text-2xl flex gap-4">
                 <a
@@ -74,65 +72,6 @@ const Project = () => {
         </div>
       </div>
       {/* project two */}
-      <div className=" w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
-          <a
-            className=" w-full xl:w-1/2 h-auto relative group"
-            href="サイトのリンク張る"
-            target="_blank"
-          >
-            <div>
-              <Image
-                className=" w-full h-full object-contain"
-                src={studyOverview}
-                width={800}
-                alt="amazonImg"
-              />
-            </div>
-          </a>
-          <div className=" w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right  z-10">
-            <p className=" text-textGreen text-sm tracking-wide">
-              feature project
-            </p>
-            <h3 className=" text-2xl font-bold">My Project</h3>
-            <p className=" bg-[#112240] text-sm md:text-base p-2 xl:-mr-12 md:p-6 rounded-xl ">
-              このプロジェクトの説明
-              <span className=" text-textGreen">
-                技fsddddddddddddddddd sdfsddddddddddddddddd sdfff
-                sdffffffffffffffffff
-                sdffffffffffffffaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                sdfffffffffffffffffffffffffffffffffffffffffffffdsa
-                sdffffffffffffffffffffffffffffffffffffffffffffff術
-              </span>
-            </p>
-            <ul className=" text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-              <li>next js </li>
-              <li>next js </li>
-              <li>next js </li>
-              <li>next js </li>
-              <li>next js </li>
-              <li>next js </li>
-              <li>next js </li>
-            </ul>
-            <div className=" text-2xl flex gap-4">
-              <a
-                className=" hover:text-textGreen duration-300"
-                href="https://github.com"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-              <a
-                className=" hover:text-textGreen duration-300"
-                href="https://github.com"
-                target="_blank"
-              >
-                <RxOpenInNewWindow />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };
