@@ -47,8 +47,9 @@ const Project = () => {
               </p>
               <h3 className=" text-2xl font-bold">Login Form 1</h3>
               <p className=" bg-[#112240] text-sm md:text-base p-2 xl:-mr-12 md:p-6 rounded-xl ">
-                モダンなアニメーションを使用したLogin Formを作成しました。
-                フレームワークには、
+                ポップアップアニメーションをつけたLogin Formを作成しました。
+                LoginボタンをクリックしていただくとLogin
+                Formがポップアップします。 フレームワークには、
                 <span className=" text-textGreen">Next.js 14</span>
                 レイアウトには、
                 <span className=" text-textGreen">Tailwind CSS</span>
@@ -104,10 +105,10 @@ const Project = () => {
             <p className=" text-textGreen text-sm tracking-wide">
               プロジェクト2
             </p>
-            <h3 className=" text-2xl font-bold">Login Form 1</h3>
+            <h3 className=" text-2xl font-bold">Login Form 2</h3>
             <p className=" bg-[#112240] text-sm md:text-base p-2 xl:-mr-12 md:p-6 rounded-xl ">
-              背景にモダンなアニメーションを使用したLogin Formを作成しました。
-              フレームワークには、
+              背景にアニメーションを使用した透明感のあるLogin
+              Formを作成しました。 フレームワークには、
               <span className=" text-textGreen">Next.js 14</span>
               レイアウトには、
               <span className=" text-textGreen">Tailwind CSS</span>
