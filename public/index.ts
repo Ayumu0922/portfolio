@@ -5,6 +5,7 @@ import studyPaper from "./img/projects/studyPaper.png";
 
 import transparentSite from "./img/projects/transparent-site.png";
 import animationSite from "./img/projects/animation-site.png";
+import imageStorageApp from "./img/projects/image_storage_app.png";
 
 export {
   logo,
@@ -13,4 +14,5 @@ export {
   studyPaper,
   transparentSite,
   animationSite,
+  imageStorageApp,
 };
