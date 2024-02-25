@@ -15,7 +15,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-20 xl:gap-40">
         <div className=" w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            幼少期から様々なことに取り組んできました。その中でも現在の私を作り上げているのは、高校時代に和太鼓部の部長を務め、
+            幼少期から様々なことに取り組んできました。その中でも現在の私を作り上げているのは、高校時代に和太鼓部に所属し
             全国大会 へ出場した経験です。 さらに大学院では、大学時代に学んでいた
             生命科学から情報科学 へと分野を変更し、新たな挑戦を続けています。
             <div className="flex justify-end">
@@ -35,7 +35,7 @@ const About = () => {
               <span className=" text-textGreen">
                 <AiFillCaretRight />
               </span>
-              希望業界：医療業界
+              希望業界：医療業界、SIer業界
             </li>
 
             <li className="flex items-center gap-2">
