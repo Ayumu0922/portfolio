@@ -1,14 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-import { AiFillCaretRight } from "react-icons/ai";
-import {
-  animationSite,
-  transparentSite,
-  imageStorageApp,
-  dicom_viewer,
-} from "@/public";
+import { transparentSite, imageStorageApp, dicom_viewer } from "@/public";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
