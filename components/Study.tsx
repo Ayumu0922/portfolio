@@ -6,9 +6,9 @@ import StudyOverview from "./works/StudyOverview";
 import Paper from "./works/Paper";
 
 const Study = () => {
-  const [workStudyB, setWorkStudyB] = useState(true);
+  const [workStudyB, setWorkStudyB] = useState(false);
   const [workStudyD, setWorkStudyD] = useState(false);
-  const [workStudyOverview, setWorkStudyOverview] = useState(false);
+  const [workStudyOverview, setWorkStudyOverview] = useState(true);
   const [workPaper, setWorkPaper] = useState(false);
 
   const handleStudyB = () => {
@@ -44,10 +44,10 @@ const Study = () => {
     >
       <SectionTitle title="研究内容" titleNo="02" />
       <div className=" w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col">
+        <ul className="md:w-40 flex flex-col">
           <li
             onClick={handleStudyB}
-            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
+            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm md:text-xl cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
               workStudyB
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
@@ -58,7 +58,7 @@ const Study = () => {
 
           <li
             onClick={handleStudyD}
-            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
+            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm md:text-xl cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
               workStudyD
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
@@ -68,7 +68,7 @@ const Study = () => {
           </li>
           <li
             onClick={handleStudyOverwiew}
-            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
+            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm md:text-xl cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
               workStudyOverview
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
@@ -78,7 +78,7 @@ const Study = () => {
           </li>
           <li
             onClick={handlePaper}
-            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
+            className={`border-l-2  bg-transparent hover:bg-[#3c4f6e] py-3 text-sm md:text-xl cursor-pointer duration-300 px-6 font-medium whitespace-nowrap ${
               workPaper
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
